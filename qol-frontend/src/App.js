@@ -32,7 +32,7 @@ function App() {
 
   const displayText = async (base64Image) => {
     try {
-      const apiKey = "AIzaSyCwr4XQxIxmgBcnnRI4Z87UkF1EnoRX_VU";
+      const apiKey = "API_KEY";
       const response = await fetch(
         `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`,
         {
